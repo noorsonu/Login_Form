@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+.main{
+    display: flex;
+    align-items: center;
+    background: url("/img/1.jpeg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main-container{
+    width: 30rem;
+    height: 35rem;
+    background-color: #000;
+    opacity: 0.75;
+    margin-left: 5rem;
+    border-radius: 1.5rem;
+    border: 1px solid rgb(101, 99, 99);
+    box-shadow: 7px 6px 15px -1px rgba(0,0,0,1);
+    -webkit-box-shadow: 7px 6px 15px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 6px 15px -1px rgba(0,0,0,1);
+    
+}
+.anywhere{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+}
+.anywhere-home:hover,.anywhere-join:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.04);
+    opacity: 1;
+}
+.anywhere-app img{
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+    margin-top: -0.8rem;
+}
+.header{
+    margin: 3rem 0 0 5rem;
+    line-height: 2.7rem;
+    font-family: 'Lexend', sans-serif;
+}
+
+.header span{
+    color: rgb(0, 128, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+.label-pass{
+    margin-right: 1.4rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: #000;
+    border: 1px solid #232323;
+    padding-left: 0.7rem;
+    width: 21.5rem;
+    height: 1.5rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 1.5rem; 
+}
+.btn button{
+    margin-right: 1.5rem;
+    width: 10rem;
+    height: 2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #232323;
+    cursor: pointer;
+}
+.btn1{
+    background-color: #565050;
+}
+.btn2{
+    background-color: #006eff;
+}
+.btn button:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.03);
+}
